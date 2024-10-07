@@ -94,7 +94,7 @@ export default function Page() {
 	}
 
 	const fetchData = async () => {
-		if (appData && Object.keys(appData).length === 0 && !appDataFetched) {
+		if ((!appData || Object.keys(appData).length === 0) && !appDataFetched) {
 			const oData:AppProducts = await getContent();
 			oData?.products && setAppData(oData.products);
 			setAppDataFetched(true);
