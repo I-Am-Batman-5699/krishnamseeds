@@ -1,6 +1,12 @@
 import Image from 'next/image';
 
-const ImageModal = ({ isOpen, image, onClose }) => {
+type TImageModel = {
+    isOpen:boolean;
+    image: string;
+    onClose: () => void
+}
+
+const ImageModal = ({ isOpen, image, onClose }:TImageModel) => {
     if (!isOpen) return null;
 
     return (

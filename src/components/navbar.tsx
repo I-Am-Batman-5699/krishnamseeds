@@ -3,9 +3,31 @@ import Link from "next/link";
 import type { SVGProps } from "react";
 import { useEffect, useState } from "react";
 
-export default function Navbar(props:any) {
-	const {classNameProp} = props;
-	const [appData, setAppData] = useState();
+export interface RootAppData {
+	appData: AppData
+}
+
+export interface AppData {
+	appName: string
+	appDescription: string
+	siteName: string
+	keywords: string[]
+	slogan: string
+	pages: string[]
+	sideNav: string[]
+	url: string
+	logo: string
+	copy: string
+	address: string
+	mobile: string
+	email: string
+	instagram: string
+}
+
+
+export default function Navbar(props: any) {
+	const { classNameProp } = props;
+	const [appData, setAppData] = useState<AppData>();
 
 	const getContent = async () => {
 		try {
@@ -55,7 +77,7 @@ export default function Navbar(props:any) {
 						</Link>
 					)}
 					{appData && appData.pages && (
-						appData.pages.map((page: String) => (
+						appData.pages.map((page) => (
 							<Link key={page} className="text-sm font-medium hover:underline underline-offset-4"
 								href={`/${page.toLocaleLowerCase()}`}>
 								{page}

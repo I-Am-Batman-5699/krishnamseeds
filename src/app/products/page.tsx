@@ -186,7 +186,7 @@ export default function Page() {
 												)
 											})
 										}
-										<ImageModal isOpen={isModalOpen} image={selectedImage} onClose={closeModal} />
+										<ImageModal isOpen={isModalOpen} image={selectedImage || ""} onClose={closeModal} />
 										<CardHeader>
 											<CardTitle>{el.name}</CardTitle>
 											<CardSubtitle>{el.id}</CardSubtitle>
