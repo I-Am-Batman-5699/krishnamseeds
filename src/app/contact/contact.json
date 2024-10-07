@@ -1,0 +1,108 @@
+{
+    "contact": [
+        {
+            "role": "company",
+            "name": "Krishnam Seeds",
+            "links": [
+                {
+                    "platform": "Email",
+                    "link": "krishnamcropcare@gmail.com"
+                },
+                {
+                    "platform": "LinkedIn",
+                    "link": ""
+                },
+                {
+                    "platform": "Instagram",
+                    "link": "https://www.instagram.com/krishnamseeds/?hl=en"
+                },
+                {
+                    "platform": "Threads",
+                    "link": ""
+                },
+                {
+                    "platform": "X",
+                    "link": ""
+                },
+                {
+                    "platform": "Facebook",
+                    "link": ""
+                }
+            ],
+            "phone":"+91 9460507167",
+            "email": "krishnamcropcare@gmail.com"
+        },
+        {
+            "role": "owner",
+            "name": "Vikas",
+            "links": [
+                {
+                    "platform": "Email",
+                    "link": "bagada.vikas387@gmail.com"
+                },
+                {
+                    "platform": "LinkedIn",
+                    "link": ""
+                },
+                {
+                    "platform": "Instagram",
+                    "link": "https://www.instagram.com/bagravickyy?igsh=MW5lcmZ4dGs1MDYwcg=="
+                },
+                {
+                    "platform": "Threads",
+                    "link": ""
+                },
+                {
+                    "platform": "X",
+                    "link": ""
+                },
+                {
+                    "platform": "Facebook",
+                    "link": ""
+                }
+            ],
+            "email": "bagada.vikas387@gmail.com",
+            "phone":" +91 8299561056"
+        },
+        {
+            "role": "developer",
+            "name": "Rahul C R",
+            "links": [
+                {
+                    "platform": "Email",
+                    "link": "rcr5699@gmail.com"
+                },
+                {
+                    "platform": "LinkedIn",
+                    "link": "https://www.linkedin.com/in/rahul-c-r-05912121a/"
+                },
+                {
+                    "platform": "Instagram",
+                    "link": "https://www.instagram.com/rahuli_raj_papu/"
+                },
+                {
+                    "platform": "Threads",
+                    "link": "https://www.threads.net/@rahuli_raj_papu?xmt=AQGz_WEcmCn5roj2woXmOlH0bK7Z9yiEfSOmcQRtcxRqAH4"
+                },
+                {
+                    "platform": "X",
+                    "link": "https://x.com/Rahul_C_R_5699"
+                },
+                {
+                    "platform": "Facebook",
+                    "link": "https://www.facebook.com/share/1B3N8TXiP4/?mibextid=LQQJ4d"
+                }
+            ],
+            "email": "rcr5699@gmail.com",
+            "phone": "NA"
+        }
+    ],
+    "platforms": {
+        "instagram": "/icons/instagram.png",
+        "linkedin": "/icons/linkedin.png",
+        "x": "/icons/twitter.png",
+        "email": "/icons/email.png",
+        "threads": "/icons/threads.png",
+        "facebook": "/icons/facebook.png"
+    }
+}

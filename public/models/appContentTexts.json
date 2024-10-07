@@ -1,0 +1,18 @@
+{
+    "appData": {
+        "appName": "Krishnam Seeds",
+        "appDescription": "Krishnam Seeds is dedicated to providing high-quality seeds that ensure bountiful harvests and sustainable growth. With a focus on innovation and excellence, we support farmers and gardeners in cultivating success and contributing to the nourishment of communities. Join us in our mission to nurture seeds and nourish lives.",
+		"siteName": "Krishnam Seeds",
+        "keywords": ["seeds", "agriculture", "uttar pradesh", "krishnam seeds", "krishnam"],
+        "slogan": "Nurturing Seeds | Nourishing Lives",
+        "pages": ["Products", "About", "Contact"],
+        "sideNav": ["Home"],
+        "url": "/krishnam_logo.jpg",
+        "logo": "/krishnam_logo.jpg",
+        "copy": "© 2024 Krishnam Seeds. All rights reserved.",
+        "address": "Shop no. 2/1954, Opp. Utsab Party Plot, Mahalakshmi Sweetmart, khed - Tasiya Road Himatnagar,Gujrat-383001",
+        "mobile": "+91 9460507167",
+        "email": "krishnamcropcare@gmail.com",
+        "instagram": "https://www.instagram.com/krishnamseeds/?hl=en"
+    }
+}

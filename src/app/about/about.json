@@ -1,0 +1,34 @@
+{
+    "aboutDetails": [
+        {
+            "about": "Company",
+            "aboutHeading": "Krishnam Seeds",
+            "description": "Krishnam Seeds is dedicated to providing high-quality seeds that ensure bountiful harvests and sustainable growth. With a focus on innovation and excellence, we support farmers and gardeners in cultivating success and contributing to the nourishment of communities. Join us in our mission to nurture seeds and nourish lives.",
+            "url": "/krishnam_logo.jpg",
+            "links": [
+                {
+                    "platform": "Twitter",
+                    "url": "/icons/"
+                },
+                {
+                    "platform": "Instagram",
+                    "url": "/icons/"
+                },
+                {
+                    "platform": "Facebook",
+                    "url": "/icons/"
+                },
+                {
+                    "platform": "LinkedIn",
+                    "url": "/icons/"
+                }
+            ]
+        },
+        {
+            "about": "Owner",
+            "aboutHeading": "Vikas",
+            "description": "Hi, I'm Vikas, the owner of this company. I hold a doctorate in agricultural sciences. Our seeds are the best in the market, and we are proud to offer them on this site.",
+            "url": "/krishnam_logo.jpg"
+        }
+    ]
+}

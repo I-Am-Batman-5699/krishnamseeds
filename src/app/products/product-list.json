@@ -1,0 +1,113 @@
+{
+    "products": {
+        "productsAvailable": "Available Products",
+        "productsDescription": "Explore all the available and feture products from Krishnam seeds",
+        "productsList": [
+            {
+                "id": "KS-44B46",
+                "name": "Hybrid Mustard Seeds/हाइब्रिड सरसों बीज",
+                "descriptionList": [
+                    "सामान्य और पिछेती दोनों बुवाईयों के लिए उपयुक्त", "40-42 प्रतिशत तेल की मात्रा", "सफेद रोली प्रति प्रतिरोधक किस्म", "120 से 125 दिन में पककर तैयार", "मोटा चमकदार दाना", "कम सिंचाई में पककर तैयार होने वाली"
+                ],
+                "images": [
+                    {"image": "/products/KS-44B46_front.jpg"},
+                    {"image": "/products/KS-44B46_back.jpg"}
+                ],
+                "price": null,
+                "quantity": null,
+                "available": true,
+                "type": "seeds"
+            },
+            {
+                "id": "KS-87",
+                "name": "Oat Seeds/जई बीज",
+                "descriptionList": [
+                    "No details yet", "Details has to be updated"
+                ],
+                "images": [
+                    {"image": "/products/KS-87_front.jpg"},
+                    {"image": "/products/KS-87_back.jpg"}
+                ],
+                "price": null,
+                "quantity": null,
+                "available": false,
+                "type": "seeds"
+            },
+            {
+                "id": "KP (G-10)",
+                "name": "Pea Seeds/रिसर्च मटर बीज",
+                "descriptionList": [
+                    "पाउडरी फफूंद के प्रति सहनशील", "अधिक बाजार मूल्य", "बुवाई के 75 से 80 दिन बाद पहली तुड़ाई", "प्रत्येक फली में 9 से 11 मटर के दाने", "गहरे हरे रंग की फली", "4 से 6 टन उपज प्रति एकड़"
+                ],
+                "images": [
+                    {"image": "/products/KP-(G-10)_front.jpg"},
+                    {"image": "/products/KP-(G-10)_back.jpg"}
+                ],
+                "price": null,
+                "quantity": null,
+                "available": true,
+                "type": "seeds"
+            },
+            {
+                "id": "KESHAV GOLD",
+                "name": "Wheat Seeds/रिसर्च गेहूँ बीज",
+                "descriptionList": [
+                    "अधिक फुटान, भरपूर उत्पादन", "30 से 35 क्विंटल प्रति एकड़ उपज", "बालियां लम्बी, मोटी व भरी हुई", "वजनदार व आकर्षक दाने", "110-120 दिन में फसल तैयार"
+                ],
+                "images": [
+                    {"image": "/products/KESHAV-GOLD_front.jpg"},
+                    {"image": "/products/KESHAV-GOLD_back.jpg"}
+                ],
+                "price": null,
+                "quantity": null,
+                "available": true,
+                "type": "seeds"
+            },
+            {
+                "id": "PARVTI GOLD",
+                "name": "Musturd Seeds/सरसों बीज",
+                "descriptionList": [
+                    "No details yet", "Details has to be updated"
+                ],
+                "images": [
+                    {"image": "/products/PARVTI-GOLD_front.jpg"},
+                    {"image": "/products/PARVTI-GOLD_back.jpg"}
+                ],
+                "price": null,
+                "quantity": null,
+                "available": false,
+                "type": "seeds"
+            },
+            {
+                "id": "KRIDHA",
+                "name": "Chickpea Seeds/चने बीज",
+                "descriptionList": [
+                    "No details yet", "Details has to be updated"
+                ],
+                "images": [
+                    {"image": "/products/KRIDHA_front.jpg"},
+                    {"image": "/products/KRIDHA_back.jpg"}
+                ],
+                "price": null,
+                "quantity": null,
+                "available": false,
+                "type": "seeds"
+            },
+            {
+                "id": "TRIJIT",
+                "name": "Barley Seeds/रिसर्च जाँ बीज",
+                "descriptionList": [
+                    "पौधे की ऊंचाई 3.6 से 4 फीट", "25 से 30 क्विंटल प्रति एकड़ उपज", "बीज की मात्रा 25 से 30 किलो / एकड़", "एक पौधे में फुटान 15 से 25", "एक बाली में दानों की संख्या 90 से 110", "पीला रतुआ रोग के प्रति सहनशील"
+                ],
+                "images": [
+                    {"image": "/products/TRIJIT_front.jpg"},
+                    {"image": "/products/TRIJIT_back.jpg"}
+                ],
+                "price": null,
+                "quantity": null,
+                "available": true,
+                "type": "seeds"
+            }
+        ]
+    }
+}

@@ -1,0 +1,143 @@
+.button, .but {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5%;
+    padding: 0px 5%;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+    margin-left: 1%;
+}
+
+.bell {
+    width: 0.625rem;
+}
+
+.button:hover .text, .but:hover .text {
+    opacity: 1;
+    width: 100%;
+    transition-duration: .3s;
+    padding-left: 10%;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    font-size: 18px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.button:hover {
+    transition-duration: .2s;
+    width: 6rem;
+}
+.but:hover {
+    transition-duration: .2s;
+    width: 8rem;
+}
+
+.button:hover .arrow, .but:hover .arrow {
+    animation: slide-right .6s ease-out both;
+    opacity: 1;
+    display: flex;
+}
+
+/* arrow animation */
+@keyframes slide-right {
+    0% {
+        transform: translateX(-2rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.button:active, .but:active {
+    transform: translate(1px, 1px);
+    transition-duration: .2s;
+}
+
+/* list */
+.Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+}
+
+/* plus sign */
+.sign {
+    width: 2rem;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign svg {
+    width: 1rem;
+}
+
+.sign svg path {
+    fill: rgb(28, 189, 230);
+}
+
+/* text */
+.text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+
+/* hover effect on button width */
+.Btn:hover {
+    width: 8rem;
+    border-radius: 1rem;
+    transition-duration: .3s;
+    background-position: right center; 
+}
+
+.Btn:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 1%;
+}
+
+/* hover effect button's text */
+.Btn:hover .text {
+    opacity: 1;
+    width: 100%;
+    transition-duration: .3s;
+    padding-left: 10%;
+}
+
+/* button click effect*/
+.Btn:active {
+    transform: translate(2px, 2px);
+}
