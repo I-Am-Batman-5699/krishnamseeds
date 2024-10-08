@@ -120,7 +120,7 @@
     width: 8rem;
     border-radius: 1rem;
     transition-duration: .3s;
-    background-position: right center; 
+    background-position: right center;
 }
 
 .Btn:hover .sign {
