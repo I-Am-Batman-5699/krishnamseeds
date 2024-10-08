@@ -177,13 +177,13 @@ export default function Page() {
 					</div>
 				</section>
 				<div className="border border-t-1 border-slate-500"></div>
-				<div>
-					<div className="container flex flex-row m-10 justify-between">
+				<div className="flex min-w-full justify-center">
+					<div className="container flex flex-col md:flex-row m-10 justify-between box-sizing: border-box">
 						{
 							(appContactData.length > 0 && Object.keys(appContactPlatformsData).length > 0) &&
 							(
 								appContactData.map((el, idx: number) => {
-									return (<div className="flex flex-col border rounded-sm border-slate-500 p-6 min-w-80 min-h-60" key={el.role}>
+									return (<div className="flex flex-col border rounded-sm border-slate-500 p-6 min-w-80 min-h-60 m-1" key={el.role}>
 										<h3 className="text-l font-medium tracking-tighter md:text-2xl/tight justify-center align-middle capitalize">
 											{el.role}
 										</h3>
