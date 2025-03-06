@@ -27,7 +27,7 @@ async function fetchData(appData: MainAppData | undefined, setAppData: (appData:
 }
 
 export default function Navbar(props: any) {
-    const { classNameProp } = props;
+    const { classNameProp, versionProp } = props;
     const [appData, setAppData] = useState<MainAppData>();
 
     useEffect(() => {
@@ -61,6 +61,11 @@ export default function Navbar(props: any) {
                 </nav>
             </header>
             <hr />
+            {versionProp && (
+                <div className="absolute right-0 rounded-sm shadow-sm mr-[0.625rem] text-white">
+                    <span className="">{versionProp}</span>
+                </div>
+            )}
         </div>
     );
 }

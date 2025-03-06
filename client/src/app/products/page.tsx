@@ -2,7 +2,7 @@
 import AlertPopUp from "@/components/alert-modal";
 import Footer from "@/components/footer";
 import ImageModal from "@/components/image-modal";
-import LoadingSpinner from "@/components/loading"; // Corrected import
+import LoadingSpinner from "@/components/loading";
 import Navbar from "@/components/navbar";
 import { Card, CardContent, CardDescription, CardFooter, CardFooterContent, CardHeader, CardLi, CardSubtitle, CardTitle, CardUl } from "@/components/ui/card";
 import classesProductList from "@/css/product-list.module.css";
@@ -37,7 +37,7 @@ export default function Page() {
 	};
 
 	const showAlertModal = (event: string, second: any) => {
-		const message = getAlertMessage(event, second);
+		const message = getAlertMessage(event, second, appData as Products);
 		setAlertModelData({ msg: message });
 		setAlertModel(true);
 	};
@@ -56,6 +56,20 @@ export default function Page() {
 			}
 			newState[id].forEach((img, index) => {
 				img.style = index === next ? "flex" : "hidden";
+			});
+			return newState;
+		});
+	};
+
+	const handlePrev = (id: string, idx: number) => {
+		setAppDataImages((prevState) => {
+			const newState = { ...prevState };
+			let prev = 0;
+			if (idx-1 >= prev) {
+				prev = idx-1;
+			}
+			newState[id].forEach((img, index) => {
+				img.style = index === prev ? "flex" : "hidden";
 			});
 			return newState;
 		});
@@ -133,7 +147,7 @@ export default function Page() {
 						</div>
 					</div>
 					{!appDataFetched && <LoadingSpinner className={bgMain} />}
-					{fetchError &&  !appData && (<div>
+					{fetchError && !appData && (<div>
 						<div className="flex flex-col items-center justify-center w-full min-h-fit overflow-hidden">
 							<p>Error: {fetchError.message}</p>
 							<button onClick={retryFetch} className="p-2 bg-blue-500 rounded-md text-white">Retry</button>
@@ -151,13 +165,15 @@ export default function Page() {
 									{appDataImages &&
 										el.images.map((element, idx: number) => (
 											<div key={element.image} className={`grid ${appDataImages[el.id][idx].style}`}>
-												<div className={`mx-auto aspect-video h-80 w-60 overflow-hidden rounded-xl object-cover object-top sm:w-full`}>
+												<div className={`mx-auto aspect-video h-80 w-60 overflow-hidden rounded-xl object-cover object-top sm:w-full bg-white`}>
 													<Image alt={el.name} height="400" src={element.image} width="500" onClick={() => handleImageClick(element.image)} />
 												</div>
 												<div className="flex justify-end mt-2">
-													<button title="Switch Images" aria-label="Switch Images" onClick={() => handleNext(el.id, idx)} className="next-button">
-														<FaCaretRight className={idx === 0 ? "flex" : "hidden"} />
+													<button title="Switch Images Previous" aria-label="Switch Images Previous" onClick={() => handlePrev(el.id, idx)} className="next-button">
 														<FaCaretLeft className={idx !== 0 ? "flex" : "hidden"} />
+													</button>
+													<button title="Switch Images Next" aria-label="Switch Images Next" onClick={() => handleNext(el.id, idx)} className="next-button">
+														<FaCaretRight className={idx < el.images.length - 1 ? "flex" : "hidden"} />
 													</button>
 												</div>
 											</div>

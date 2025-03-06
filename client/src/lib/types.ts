@@ -38,6 +38,11 @@ export interface Products {
     productsAvailable: string
     productsDescription: string
     productsList: ProductsList[]
+    somethingPopup: string
+    pricePopup: string
+    notifyPopup: string
+    wishlistPopup: string
+    purchasePopup: string
 }
 
 export interface ProductsList {

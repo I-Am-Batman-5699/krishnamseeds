@@ -6,6 +6,7 @@ import Particles from "@/components/particles";
 import { ContainerGrid, ContainerGridText, ContentGridImage, SectionDivContainer } from "@/components/ui/section";
 import ApiService from "@/lib/apiService";
 import { aboutData, aboutDataRes, AboutDetail } from "@/lib/types";
+import { getVersion } from "@/lib/utils";
 import { useCallback, useEffect, useState } from "react";
 
 export default function Component() {
@@ -13,6 +14,7 @@ export default function Component() {
     const [appDataFetched, setAppDataFetched] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
     const [fetchError, setFetchError] = useState<Error | null>(null);
+    const [version, setVersion] = useState("X");
 
     const getContent = async () => {
         try {
@@ -35,6 +37,7 @@ export default function Component() {
                     setAppData(oData.aboutDetails);
                 }
                 setAppDataFetched(true);
+                setVersion(getVersion());
             } catch (error: any) {
                 console.error("Error fetching data:", error);
                 setFetchError(error);
@@ -73,7 +76,7 @@ export default function Component() {
 
     return (
 		<div>
-			<Navbar classNameProp={bg} />
+			<Navbar classNameProp={bg} versionProp= {version} />
 			{/* Loading State */}
 			{isLoading && <LoadingSpinner className={bgMain}/>}
 	

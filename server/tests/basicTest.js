@@ -22,6 +22,7 @@ const runTests = async () => {
     await testGetRequest("contacts");
     await testGetRequest("about");
     await testGetRequest("productList");
+    // await testGetRequest("productList-c"); // fail
 
     console.log("✅ All tests completed!");
 };
