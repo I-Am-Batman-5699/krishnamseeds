@@ -17,7 +17,6 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'krishnamseeds.in',
-                port: '5699',
             },
         ],
     }
