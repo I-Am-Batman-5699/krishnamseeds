@@ -12,6 +12,10 @@ const nextConfig = {
                 hostname: 'krishnamseeds.in',
                 port: '5699',
             },
+            {
+                protocol: 'https',
+                hostname: 'krishnamseeds.in',
+            },
         ],
     },
 };

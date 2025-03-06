@@ -56,3 +56,8 @@
 │── package.json                 # Project dependencies
 │── server.js                    # Main entry point
 │── README.md                    # Project documentation
+
+
+```
+npm install bcrypt cors dotenv express jest nodemon supertest winston axios emailjs nodemailer serverless-http
+```

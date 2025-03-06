@@ -72,7 +72,7 @@ export default function Component() {
         );
     }
 
-	const bgMain = "min-h-[calc(100svh-65svh)] opacity-90 bg-gradient-to-r from-black from-30% to-blue-800 to-100%";
+	const bgMain = "min-h-[calc(100svh-20svh)] opacity-90 bg-gradient-to-r from-black from-30% to-blue-800 to-100%";
 
     return (
 		<div>
