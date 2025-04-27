@@ -23,8 +23,9 @@ export interface AppData {
 	instagram: string
 }
 
-export default function Footer() {
+export default function Footer(props:any) {
 	const [appData, setAppData] = useState<AppData | null>(null);
+	const {classNameProp} = props;
 
 	const getContent = async () => {
 		try {
@@ -55,18 +56,22 @@ export default function Footer() {
 
 	useEffect(() => {
 		fetchData();
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	const img = "ml-2 border-teal bg-transparent flex";
 
 	return (
-		<footer className="flex flex-col sm:flex-row gap-2 py-6 w-full shrink-0 justify-center items-center px-4 md:px-6 border-t">
+		<footer className={`justify-center items-center ${classNameProp}`}>
+		{/* <footer className="py-6 w-full shrink-0 justify-center items-center px-4 md:px-6 border-t"> */}
+		{/* <footer className="flex flex-col sm:flex-row gap-2 py-6 w-full shrink-0 justify-center items-center px-4 md:px-6 border-t"> */}
+			<div className="w-full h-px animate-glow md:block animate-pulse bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 mb-2" />
 			<div className="flex flex-col justify-center items-center">
 				{
 					appData &&
 					(
 						<div className="justify-center items-center text-center">
-							<p className="text-s text-gray-500 dark:text-gray-400">
+							<p className="text-xs text-gray-500 dark:text-gray-400">
 								{appData.copy}
 							</p>
 							<p className="text-xs text-gray-500 dark:text-gray-400">

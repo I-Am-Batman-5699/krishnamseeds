@@ -62,7 +62,7 @@ export default function Navbar(props: any) {
 
 	return (
 		<div>
-			<header className={`px-4 lg:px-6 h-14 flex items-center ${classNameProp}`}>
+			<header className={`lg:px-6 h-14 sticky top-0 backdrop-blur-sm flex items-center ${classNameProp}`}>
 				<Link className="flex items-center justify-center" href="/">
 					<HomeIcon className="h-6 w-6" />
 					<span className="sr-only">{appData?.appName}</span>

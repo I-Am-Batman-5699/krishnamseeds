@@ -1,0 +1,11 @@
+
+@media (max-width: 900px) {
+    .image-size img{
+        max-width: 50vw;
+        max-height: 50vh;
+    }
+}
+.image-size img{
+    max-width: 30rem;
+    max-height: 30rem;
+}

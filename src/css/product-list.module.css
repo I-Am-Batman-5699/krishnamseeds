@@ -141,3 +141,16 @@
 .Btn:active {
     transform: translate(2px, 2px);
 }
+
+/* image modal */
+.image-modal img {
+    max-height: 85vh;
+}
+
+.image-item img{
+    background-color: #f1efef;
+}
+
+.list-bg{
+    background-color: #f1efef;
+}

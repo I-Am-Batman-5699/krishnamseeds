@@ -26,9 +26,30 @@
         },
         {
             "about": "Owner",
-            "aboutHeading": "Vikas",
-            "description": "Hi, I'm Vikas, the owner of this company. I hold a doctorate in agricultural sciences. Our seeds are the best in the market, and we are proud to offer them on this site.",
+            "aboutHeading": "Vikas Bagada",
+            "description": "Greetings! I'm Vikas Bagada, the owner of Krishnam Seeds. My journey in agricultural sciences, culminating in a doctorate, has instilled in me a profound appreciation for the power of quality seeds. At Krishnam Seeds, we're not just offering products; we're sharing the fruits of that knowledge and passion. I firmly believe that our seeds represent the best in the market, and it's with genuine pride that I make them available to you here. I'm excited to partner with you in achieving bountiful harvests and contributing to a thriving agricultural future.",
             "url": "/krishnam_logo.jpg"
         }
-    ]
+    ],
+    "story": {
+        "intro" : {
+            "title":"Introduction",
+            "content": "Welcome to Krishnam Seeds, your trusted partner for high-quality seeds that pave the way for abundant harvests and sustainable growth. Founded in 2024 by Dr. Vikas Bagada, a distinguished agricultural scientist, we are driven by a passion for innovation and excellence. At Krishnam Seeds, we understand the vital role of quality seeds in the success of farmers and gardeners alike. That's why we are proud to offer a diverse range of over 30 premium products, encompassing many varieties meticulously developed to meet your specific needs. Join us in our mission to cultivate success and contribute to the nourishment of communities, one seed at a time.",
+            "subtitle":"Nurturing Seeds, Nourishing Lives"
+        },
+        "motivation": {
+            "title":"How we run",
+            "subtitle": "",
+            "content": "",
+            "statements": [
+                {"title": "Visionary Research and Strong Infrastructure", "text": "Our R&D team is working for the future of agriculture. With the help of state-of-the-art labs and technology, we bring smart solutions."},
+                {"title": "Shape Ideas, Reap the Harvest of Innovation", "text": "Behind every seed is an idea. We take that idea to the ground so that farmers grow not just crops, but also trust."},
+                {"title": "Innovative Products According to Farmers' Needs", "text": "Every region, every soil, every farmer is different. Understanding their needs, we provide special products that deliver excellent results."},
+                {"title": "No Compromise on Quality", "text": "Every one of our seeds goes through several stages. This is why farmers trust us year after year."},
+                {"title": "Dissemination of Knowledge, Expansion of Potential", "text": "We don't just sell seeds; we also provide information, technology, and confidence so that farmers can turn every challenge into an opportunity."},
+                {"title": "Fast Service, Reliable Support", "text": "Our support continues even after the sale. Our team remains connected with farmers, always ready for timely advice and help."},
+                {"title": "Trained and Professional Team", "text": "Our training team keeps both farmers and the sales team updated, from the field to the future."}
+            ]
+        }
+    }
 }

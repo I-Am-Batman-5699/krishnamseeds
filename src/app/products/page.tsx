@@ -3,46 +3,23 @@ import productList from "@/app/products/product-list.json";
 import AlertPopUp from "@/components/alert-modal";
 import Footer from "@/components/footer";
 import ImageModal from "@/components/image-modal";
+import LoadingSpinner from "@/components/loading";
 import Navbar from "@/components/navbar";
 import { Card, CardContent, CardDescription, CardFooter, CardFooterContent, CardHeader, CardLi, CardSubtitle, CardTitle, CardUl } from "@/components/ui/card";
-import classes from "@/css/loading.module.css";
 import classesProductList from "@/css/product-list.module.css";
+import { AppProducts, Products, ProductsList } from "@/utils/types";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
+import { TbPointFilled } from "react-icons/tb";
 
-export interface AppProducts {
-	products: Products
-}
-
-export interface Products {
-	productsAvailable: string
-	productsDescription: string
-	productsList: ProductsList[]
-}
-
-export interface ProductsList {
-	id: string
-	name: string
-	descriptionList: string[]
-	images: Image[]
-	price: any
-	quantity: any
-	available: boolean
-	type: string
-}
-
-export interface Image {
-	image: string
-}
-
-type TAppDataImages = Record<string, Record<string,string>[]>
+type TAppDataImages = Record<string, Record<string, string>[]>
 
 export default function Page() {
 	// purchase alert boolean
 	const noPurchaseAlert = false;
 
-	const [appData, setAppData] = useState<Products|null>(null);
+	const [appData, setAppData] = useState<Products | null>(null);
 	const [appDataFetched, setAppDataFetched] = useState(false);
 	const [appDataImages, setAppDataImages] = useState<TAppDataImages>({});
 
@@ -62,40 +39,43 @@ export default function Page() {
 	const [alertModel, setAlertModel] = useState(false);
 	const [alertModelData, setAlertModelData] = useState({});
 
-	const showAlertModal = (event:string, second:any) => {
+	const showAlertModal = (event: string, second: any) => {
 		let message = "", typeClick = event.toLocaleLowerCase();
-		if(typeClick==="price"){
+		if (typeClick === "price") {
 			message = "Price can communicated by sending an email to the organization";
 		}
-		else if(typeClick==="notify"){
-			message = "Please wite an email to the organization when product: " + second +"is available";
+		else if (typeClick === "notify") {
+			message = "Please wite an email to the organization when product: " + second + " is available";
 		}
-		else if(typeClick==="wishlist"){
+		else if (typeClick === "wishlist") {
 			message = "The feature is not available as of now";
 		}
-		else if(typeClick==="purchase"){
+		else if (typeClick === "purchase") {
 			message = "Please place your order through contact us page for the item: " + second;
 		}
 		setAlertModelData({
-			"msg" :message
+			"msg": message
 		})
 		setAlertModel(true);
 	}
-	
+
 	const closeAlertModal = () => {
 		setAlertModel(false);
 	}
 
-	const handleNext = (id: string, idx: number) => {
+	const handleNextPrev = (id: string, idx: number, next:boolean) => {
+		if(next && (appDataImages[id].length===idx+1)){
+			return;
+		}
+		if(!next && (idx===0)){
+			return;
+		}
+		const frontOrBack = next ? 1 : -1;
 		setAppDataImages(prevState => {
 			const newState = { ...prevState };
-			const count = newState[id].length;
-			let next = 0;
-			if (idx < count - 1) {
-				next = idx + 1;
-			}
-			newState[id][next].style = 'flex';
+			const gotoIndex = idx + frontOrBack;
 			newState[id][idx].style = 'hidden';
+			newState[id][gotoIndex].style = 'flex';
 			return newState;
 		});
 	};
@@ -109,8 +89,8 @@ export default function Page() {
 		}
 	};
 
-	const _setImageProperties = (data:ProductsList[]) => {
-		let imagesProperties:Record<string, Record<string,string>[]> = {};
+	const _setImageProperties = (data: ProductsList[]) => {
+		let imagesProperties: Record<string, Record<string, string>[]> = {};
 		data.forEach((el) => {
 			imagesProperties[el.id] = [];
 			el.images.forEach(() => {
@@ -125,7 +105,7 @@ export default function Page() {
 
 	const fetchData = async () => {
 		if ((!appData || Object.keys(appData).length === 0) && !appDataFetched) {
-			const oData:AppProducts = await getContent();
+			const oData: AppProducts = await getContent();
 			oData?.products && setAppData(oData.products);
 			setAppDataFetched(true);
 			_setImageProperties(oData.products.productsList)
@@ -153,6 +133,8 @@ export default function Page() {
 		indicators: (i: any) => <div className="indicator">{i + 1}</div>
 	};
 
+	const bgMain = "min-h-[calc(100svh-121px)] flex justify-center py-6 md:py-16 lg:py-16 bg-gray-100 dark:bg-gray-800";
+
 	return (
 		<div>
 			<Navbar classNameProp={bg} />
@@ -168,7 +150,7 @@ export default function Page() {
 							</p>
 						</div>
 					</div>
-					{!appDataFetched && (
+					{/* {!appDataFetched && (
 						<div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-1 lg:grid-cols-1 lg:gap-12 justify-center" >
 							<div className={classes.loading}>
 								<p className="justify-center align-middle flex">Loading...!</p>
@@ -182,22 +164,24 @@ export default function Page() {
 								</div>
 							</div>
 						</div>
-					)}
+					)} */}
+					{!appDataFetched && <LoadingSpinner className={bgMain} />}
 					{appDataFetched && appData && Object.keys(appData).length === 0 && (
 						<div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
 							<p>Products not update. Please contact the owner from about page.</p>
 						</div>
 					)}
 					{appDataFetched && appData && Object.keys(appData).length > 0 &&
-						(<div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+						(<div className="mx-auto grid max-w-8xl grid-cols-1 gap-4 py-12 xl:grid-cols-4 xl:gap-6 lg:grid-cols-3 lg:gap-6 md:max-w-10xl md:grid-cols-3 md:gap-3 sm:grid-cols-2 sm:gap-2">
+							{/* (<div className="mx-auto grid max-w-8xl grid-cols-1 gap-4 py-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6"> */}
 							{appData?.productsList?.map((el) => {
 								return (
-									<Card key={el.id}>
+									<Card key={el.id} className="bg-slate-400">
 										{
 											appDataImages && el.images.map((element, idx: number) => {
 												return (
-													<div key={element.image} className={`grid ${appDataImages[el.id][idx].style}`}>
-														<div className={`mx-auto aspect-video h-80 w-60 overflow-hidden rounded-xl object-cover object-top sm:w-full`}>
+													<div key={element.image} className={`grid ${appDataImages[el.id][idx].style} p-2 bg-zinc-950 rounded-md`}>
+														<div className={`mx-auto aspect-video h-80 w-60 overflow-hidden rounded-xl object-cover object-top sm:w-full bg-black flex  ${classesProductList["image-item"]}`}>
 															<Image
 																alt={el.name}
 																height="400"
@@ -206,10 +190,13 @@ export default function Page() {
 																onClick={() => handleImageClick(element.image)}
 															/>
 														</div>
-														<div className="flex justify-end mt-2">
-															<button title="Switch Images" onClick={() => handleNext(el.id, idx)} className="next-button">
-																<FaCaretRight className={idx === 0 ? 'flex' : 'hidden'} />
-																<FaCaretLeft className={idx !== 0 ? 'flex' : 'hidden'} />
+														<div className="flex justify-center mt-2 items-center space-x-4">
+															<button title="Switch left" onClick={() => handleNextPrev(el.id, idx, false)} className="next-button">
+																<FaCaretLeft className={idx !== 0 ? 'flex' : 'opacity-50 cursor-not-allowed'} />
+															</button>
+															<span className="text-sm">{`${idx+1}/${el.images.length}`}</span>
+															<button title="Switch Images" onClick={() => handleNextPrev(el.id, idx, true)} className="next-button">
+																<FaCaretRight className={idx !== el.images.length-1 ? 'flex' : 'opacity-50 cursor-not-allowed'} />
 															</button>
 														</div>
 													</div>
@@ -218,24 +205,24 @@ export default function Page() {
 										}
 										<ImageModal isOpen={isModalOpen} image={selectedImage || ""} onClose={closeModal} />
 										<CardHeader>
-											<CardTitle>{el.name}</CardTitle>
-											<CardSubtitle>{el.id}</CardSubtitle>
+											<CardTitle>{el.crop}</CardTitle>
+											<CardSubtitle>{el.name}</CardSubtitle>
 										</CardHeader>
-										<CardContent>
+										<CardContent className={classesProductList["list-bg"]}>
 											<CardDescription>
 												<CardUl>
 													{el?.descriptionList?.map((element: any) => {
-														return (<CardLi key={element}><FaCaretRight style={FaCaretRightClass} /> {element}</CardLi>)
+														return (<CardLi key={element}><TbPointFilled style={FaCaretRightClass} /> {element}</CardLi>)
 													})}
 												</CardUl>
 											</CardDescription>
 										</CardContent>
-										<AlertPopUp isOpen={alertModel} modalData={alertModelData} onClose={closeAlertModal}/>
+										<AlertPopUp isOpen={alertModel} modalData={alertModelData} onClose={closeAlertModal} />
 										<CardFooter>
 											<CardFooterContent>
 												{
 													el.id.length > 0 && el.price !== null &&
-													<button className={classesProductList.but} onClick={()=> showAlertModal("Price", el.price)}>
+													<button className={classesProductList.but} onClick={() => showAlertModal("Price", el.price)}>
 														<div className={classesProductList.sign}>
 															<span key={el.id} className={`${classesProductList.bell} text-cyan-500`}>₹</span>
 														</div>
@@ -245,7 +232,7 @@ export default function Page() {
 												}
 												{
 													el.id.length > 0 &&
-													<button className={classesProductList.but} onClick={()=> showAlertModal("wishList", el.id)}>
+													<button className={classesProductList.but} onClick={() => showAlertModal("wishList", el.id)}>
 														<div className={classesProductList.sign}>
 															<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" className={classesProductList.bell}><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"></path></svg>
 														</div>
@@ -255,7 +242,7 @@ export default function Page() {
 												}
 												{
 													!el.available &&
-													<button className={classesProductList.button} onClick={()=> showAlertModal("Notify", el.id)}>
+													<button className={classesProductList.button} onClick={() => showAlertModal("Notify", el.id)}>
 														<div className={classesProductList.sign}>
 															<svg className={classesProductList.bell} height="1em" viewBox="0 0 448 512"><path d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"></path></svg>
 														</div>
@@ -265,7 +252,7 @@ export default function Page() {
 												}
 												{
 													el.available &&
-													<button className={classesProductList.but} disabled={el.price === null && noPurchaseAlert} onClick={()=> showAlertModal("Purchase", el.id)}>
+													<button className={classesProductList.but} disabled={el.price === null && noPurchaseAlert} onClick={() => showAlertModal("Purchase", el.id)}>
 														<div className={classesProductList.sign}>
 															<svg viewBox="0 0 16 16" className={classesProductList.bell} height="1em" width="24" xmlns="http://www.w3.org/2000/svg" fill="#fff">
 																<path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"></path>
@@ -285,7 +272,7 @@ export default function Page() {
 					}
 				</div>
 			</section>
-			<Footer />
+			<Footer classNameProp={"bg-gray-100 dark:bg-gray-800"} />
 		</div>
 	);
 }

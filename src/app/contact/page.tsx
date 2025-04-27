@@ -4,44 +4,20 @@ import Contact from "@/app/contact/contact.json";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import NotificatioPopUp from "@/components/notification-popup-modal";
+import Particles from "@/components/particles";
 import Email from "@/components/sendemail";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
+import { ContactInfo, Platforms } from "@/utils/types";
 import emailjs from "@emailjs/browser";
 import Avatar from '@mui/material/Avatar';
 import * as React from "react";
 import { useEffect, useState } from "react";
 import { MdEmail, MdOutlinePhoneIphone } from "react-icons/md";
 
-export interface AboutContact {
-	contact: ContactInfo[]
-	platforms: Platforms
-}
 
-export interface ContactInfo {
-	role: string
-	name: string
-	links: Link[]
-	phone: string
-	email: string
-}
-
-export interface Link {
-	platform: TPlatform
-	link: string
-}
-
-export interface Platforms {
-	instagram: string
-	linkedin: string
-	x: string
-	email: string
-	threads: string
-	facebook: string
-}
-type TPlatform = keyof Platforms;
 
 export default function Page() {
 	const [appContactData, setAppContactData] = useState<ContactInfo[]>([]);
@@ -81,6 +57,7 @@ export default function Page() {
 
 	useEffect(() => {
 		fetchData();
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	const img = "ml-2 border border-1 border-teal rounded-full bg-white";
@@ -150,9 +127,10 @@ export default function Page() {
 	}
 
 	return (
-		<div>
+		<div className="bg-gradient-to-tl from-black via-zinc-600/20 to-black">
 			<Navbar />
-			<div>
+			<div >
+				<Particles className="absolute inset-0 -z-10 animate-fade-in py-2 mt-14" quantity={200}/>
 				<section className="w-full min-h-[calc(100svh-60svh)] flex justify-center py-12 md:py-24 lg:py-32 border-t" id="contact">
 					<div className="container flex items-center justify-center flex-col gap-4 px-4 text-center md:px-6">
 						<div className="space-y-3">
@@ -176,7 +154,7 @@ export default function Page() {
 						</div>
 					</div>
 				</section>
-				<div className="border border-t-1 border-slate-500"></div>
+				<div className="border border-t-0.5 border-zinc-300/50"></div>
 				<div className="flex min-w-full justify-center">
 					<div className="container flex flex-col md:flex-row m-10 justify-between box-sizing: border-box">
 						{
@@ -222,7 +200,7 @@ export default function Page() {
 					</div>
 				</div>
 			</div>
-			<Footer />
+			<Footer classNameProp={""} />
 		</div>
 	);
 }

@@ -1,3 +1,4 @@
+import aboutClasses from "@/css/about.module.css";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import * as React from "react";
@@ -20,7 +21,7 @@ const ContainerGrid = React.forwardRef<
 >(({ className, ...props }, ref) => (
     <div
         ref={ref}
-        className={cn("grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]", className)}
+        className={cn("grid gap-6 lg:gap-12", className)}
         {...props}
     />
 ))
@@ -38,8 +39,8 @@ const ContainerGridText = React.forwardRef<
         {...props}
     >
         <div className={cn("space-y-2", className)}>
-            <h1 className="text-l font-bold tracking-tighter sm:text-4xl xl:text-4xl/none">{aboutDetails.about}</h1>
-            <h2 className="text-m font-bold tracking-tighter sm:text-2xl xl:text-2xl/none">{aboutDetails.aboutHeading}</h2>
+            <h2 className="text-m font-bold tracking-tighter md:text-xl xl:text-2xl/none">{aboutDetails.about}</h2>
+            <h1 className="text-l font-bold tracking-tighter md:text-2xl xl:text-4xl/none">{aboutDetails.aboutHeading}</h1>
             <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">&quot;{aboutDetails.description}&quot;</p>
         </div>
     </div>
@@ -52,12 +53,12 @@ const ContentGridImage = React.forwardRef<
 >(({ className, src, alt, ...props }, ref) => (
     <div
         ref={ref}
-        className={cn("", className)}
+        className={cn("", className, aboutClasses["image-size"])}
         {...props}
     >
         <Image
             alt={alt}
-            className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last bg-black"
+            className={`mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last bg-black`}
             height={400}
             src={src}
             width={400}

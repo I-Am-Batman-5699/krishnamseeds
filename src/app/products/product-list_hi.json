@@ -6,13 +6,12 @@
             {
                 "id": "KS-44B46",
                 "name": "KS-44B46",
-                "crop": "Mustard/सरसों",
-                "crop-description": "Mustard Seeds/सरसों बीज",
+                "crop": "सरसों",
+                "crop-description": "हाइब्रिड सरसों बीज",
                 "descriptionList": [
-                    "सामान्य और पिछेती दोनों बुवाईयों के लिए उपयुक्त", "40-42 प्रतिशत तेल की मात्रा", "सफेद रोली प्रति प्रतिरोधक किस्म", "120 से 125 दिन में पककर तैयार", "मोटा चमकदार दाना", "कम सिंचाई में पककर तैयार होने वाली"
+                   "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KS-44B46.png"},
                     {"image": "/products/KS-44B46_front.jpg"},
                     {"image": "/products/KS-44B46_back.jpg"}
                 ],
@@ -20,18 +19,17 @@
                 "quantity": null,
                 "available": true,
                 "type": "seeds",
-                "variety-type": "Hybrid"
+                "variety-type": "हाइब्रिड"
             },
             {
                 "id": "KS-87",
                 "name": "KS-87",
-                "crop": "Oat/जई",
-                "crop-description": "Oat Seeds/जई बीज",
+                "crop": "जई",
+                "crop-description": "रिसर्च जई बीज",
                 "descriptionList": [
                     "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KS-87.png"},
                     {"image": "/products/KS-87_front.jpg"},
                     {"image": "/products/KS-87_back.jpg"}
                 ],
@@ -39,18 +37,17 @@
                 "quantity": null,
                 "available": false,
                 "type": "seeds",
-                "variety-type": "Research"
+                "variety-type": "रिसर्च"
             },
             {
                 "id": "KP-(G-10)",
                 "name": "KP (G-10)",
-                "crop": "Pea/मटर",
-                "crop-description": "Pea Seeds/मटर बीज",
+                "crop": "मटर",
+                "crop-description": "मटर बीज",
                 "descriptionList": [
-                    "पाउडरी फफूंद के प्रति सहनशील", "अधिक बाजार मूल्य", "बुवाई के 75 से 80 दिन बाद पहली तुड़ाई", "प्रत्येक फली में 9 से 11 मटर के दाने", "गहरे हरे रंग की फली", "4 से 6 टन उपज प्रति एकड़"
+                   "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KP-(G-10).png"},
                     {"image": "/products/KP-(G-10)_front.jpg"},
                     {"image": "/products/KP-(G-10)_back.jpg"}
                 ],
@@ -63,13 +60,12 @@
             {
                 "id": "KESHAV-GOLD",
                 "name": "KESHAV GOLD",
-                "crop": "Wheat/गेहूँ",
-                "crop-description": "Wheat Seeds/गेहूँ बीज",
+                "crop": "गेहूँ",
+                "crop-description": "गेहूँ बीज",
                 "descriptionList": [
-                    "अधिक फुटान, भरपूर उत्पादन", "30 से 35 क्विंटल प्रति एकड़ उपज", "बालियां लम्बी, मोटी व भरी हुई", "वजनदार व आकर्षक दाने", "110-120 दिन में फसल तैयार"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KESHAV-GOLD.png"},
                     {"image": "/products/KESHAV-GOLD_front.jpg"},
                     {"image": "/products/KESHAV-GOLD_back.jpg"}
                 ],
@@ -82,13 +78,12 @@
             {
                 "id": "PARVTI-GOLD",
                 "name": "PARVTI GOLD",
-                "crop": "Musturd/सरसो",
-                "crop-description": "Musturd Seeds/सरसों बीज",
+                "crop": "सरसो",
+                "crop-description": "सरसों बीज",
                 "descriptionList": [
-                    "No details yet, Details has to be updated"
+                    "No details yet", "Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/PARVTI-GOLD.png"},
                     {"image": "/products/PARVTI-GOLD_front.jpg"},
                     {"image": "/products/PARVTI-GOLD_back.jpg"}
                 ],
@@ -101,13 +96,12 @@
             {
                 "id": "KRIDHA",
                 "name": "KRIDHA",
-                "crop": "Chickpea/चने",
-                "crop-description": "Chickpea Seeds/चने बीज",
+                "crop": "चने",
+                "crop-description": "चने बीज",
                 "descriptionList": [
-                    "No details yet, Details has to be updated"
+                    "No details yet", "Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KRIDHA.png"},
                     {"image": "/products/KRIDHA_front.jpg"},
                     {"image": "/products/KRIDHA_back.jpg"}
                 ],
@@ -120,13 +114,12 @@
             {
                 "id": "TRIJIT",
                 "name": "TRIJIT",
-                "crop": "Barley/जाँ",
-                "crop-description": "Barley Seeds/जाँ बीज",
+                "crop": "जाँ",
+                "crop-description": "जाँ बीज",
                 "descriptionList": [
-                    "पौधे की ऊंचाई 3.6 से 4 फीट", "25 से 30 क्विंटल प्रति एकड़ उपज", "बीज की मात्रा 25 से 30 किलो / एकड़", "एक पौधे में फुटान 15 से 25", "एक बाली में दानों की संख्या 90 से 110", "पीला रतुआ रोग के प्रति सहनशील"
+                   "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/TRIJIT.png"},
                     {"image": "/products/TRIJIT_front.jpg"},
                     {"image": "/products/TRIJIT_back.jpg"}
                 ],
@@ -139,13 +132,13 @@
             {
                 "id": "KHB-75",
                 "name": "KHB-75",
-                "crop": "Bajra/बाजरा",
-                "crop-description": "Bajra Seeds/बाजरा बीज",
+                "crop": "बाजरा",
+                "crop-description": "बाजरा बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KHB-75.png"}
+                    {"image": "/products/KHB-75_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -156,13 +149,13 @@
             {
                 "id": "KHB-80",
                 "name": "KHB-80",
-                "crop": "Bajra/बाजरा",
-                "crop-description": "Bajra Seeds/बाजरा बीज",
+                "crop": "बाजरा",
+                "crop-description": "बाजरा बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KHB-75.png"}
+                    {"image": "/products/KHB-75_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -176,10 +169,10 @@
                 "crop": "Groundnut",
                 "crop-description": "Groundnut seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KG-0441.png"}
+                    {"image": "/products/KG-0441_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -193,10 +186,10 @@
                 "crop": "Groundnut",
                 "crop-description": "Groundnut seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KRISHSONA.png"}
+                    {"image": "/products/KRISHSONA_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -210,10 +203,10 @@
                 "crop": "Gun Guar",
                 "crop-description": "Gun Guar seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KRG-86.png"}
+                    {"image": "/products/KRG-86_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -227,10 +220,10 @@
                 "crop": "Maize",
                 "crop-description": "Maize seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/GANGA-5.png"}
+                    {"image": "/products/GANGA-5_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -244,10 +237,10 @@
                 "crop": "SORGHUM SUDAN GRASS",
                 "crop-description": "SORGHUM SUDAN GRASS seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KRISHVI.png"}
+                    {"image": "/products/KRISHVI_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -261,10 +254,10 @@
                 "crop": "SORGHUM SUDAN GRASS",
                 "crop-description": "SORGHUM SUDAN GRASS seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/LALITA.png"}
+                    {"image": "/products/LALITA_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -278,10 +271,10 @@
                 "crop": "BAJRI",
                 "crop-description": "Hybrid BAJRI seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/PRITVI.png"}
+                    {"image": "/products/PRITVI_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -295,10 +288,10 @@
                 "crop": "BAJRI",
                 "crop-description": "Hybrid BAJRI seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/NUTRASTAR-SUPER.png"}
+                    {"image": "/products/NUTRASTAR-SUPER_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -312,10 +305,10 @@
                 "crop": "Moong",
                 "crop-description": "Research Moong seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KRISHNAM-60.png"}
+                    {"image": "/products/KRISHNAM-60_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -329,10 +322,10 @@
                 "crop": "Rijka",
                 "crop-description": "Rijka seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KRIJKA.png"}
+                    {"image": "/products/KRIJKA_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -346,10 +339,10 @@
                 "crop": "Kasni",
                 "crop-description": "Research Kasni seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/IRESH.png"}
+                    {"image": "/products/IRESH_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -363,10 +356,10 @@
                 "crop": "Onion",
                 "crop-description": "Hybrid Onion seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/YUVAN.png"}
+                    {"image": "/products/YUVAN_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -380,10 +373,10 @@
                 "crop": "Okra",
                 "crop-description": "Hybrid Okra seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/RUCHI-75.png"}
+                    {"image": "/products/RUCHI-75_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -397,10 +390,10 @@
                 "crop": "Palak",
                 "crop-description": "Palak seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/RISHI-44.png"}
+                    {"image": "/products/RISHI-44_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -414,10 +407,10 @@
                 "crop": "Carrot",
                 "crop-description": "Hybrid Carrot seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/ARYA.png"}
+                    {"image": "/products/ARYA_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -431,10 +424,10 @@
                 "crop": "Radish",
                 "crop-description": "Hybrid Radish seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/LUCKY-WHITE.png"}
+                    {"image": "/products/LUCKY-WHITE_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -448,10 +441,10 @@
                 "crop": "Coriander",
                 "crop-description": "Coriander seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KRISHAV.png"}
+                    {"image": "/products/KRISHAV_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -465,10 +458,10 @@
                 "crop": "TINDA",
                 "crop-description": "Reserach TINDA seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/MADHAV.png"}
+                    {"image": "/products/KMADHAV_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -482,10 +475,10 @@
                 "crop": "Tinda",
                 "crop-description": "Hybrid Tinda seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/AVYAN.png"}
+                    {"image": "/products/AVYAN_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -499,10 +492,10 @@
                 "crop": "Guwar",
                 "crop-description": "Research Guwar seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/KRISHNAM-61.png"}
+                    {"image": "/products/KRISHNAM-61_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -516,10 +509,10 @@
                 "crop": "Watermelon",
                 "crop-description": "Hybrid Watermelon seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/SWEET-TRIPTI.png"}
+                    {"image": "/products/SWEET-TRIPTI_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -533,10 +526,10 @@
                 "crop": "Cucumber",
                 "crop-description": "Hybrid Cucumber seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/RISHI-45.png"}
+                    {"image": "/products/RISHI-45_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -550,10 +543,10 @@
                 "crop": "Chilli",
                 "crop-description": "Hybrid Chilli seeds",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "No details yet, Details has to be updated"
                 ],
                 "images": [
-                    {"image": "/products/URVI.png"}
+                    {"image": "/products/URVI_front.jpg"}
                 ],
                 "price": null,
                 "quantity": null,
