@@ -205,7 +205,10 @@ export default function Page() {
 										}
 										<ImageModal isOpen={isModalOpen} image={selectedImage || ""} onClose={closeModal} />
 										<CardHeader>
+										<div className="flex flex-col sm:flex-row justify-between">
 											<CardTitle>{el.crop}</CardTitle>
+											<CardSubtitle className="py-1 px-1">{el["variety-type"]}</CardSubtitle>
+										</div>
 											<CardSubtitle>{el.name}</CardSubtitle>
 										</CardHeader>
 										<CardContent className={classesProductList["list-bg"]}>

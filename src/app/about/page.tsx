@@ -4,9 +4,9 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Particles from "@/components/particles";
 import { ContainerGrid, ContainerGridText, ContentGridImage, SectionDivContainer } from "@/components/ui/section";
-import classes from "@/css/loading.module.css";
 import { useCallback, useEffect, useState } from "react";
 
+import LoadingSpinner from "@/components/loading";
 import { About, AboutDetail, AppContextData, Statement, Story } from "@/utils/types";
 
 
@@ -60,6 +60,7 @@ export default function Component() {
 	}, [fetchData]);
 
 	const bg = "bg-gradient-to-r from-black from-30% to-blue-800 to-100%";
+	const bgMain = "min-h-[calc(100svh-20svh)] opacity-90 bg-gradient-to-r from-black from-30% to-blue-800 to-100%";
 
 	return (
 		<div>
@@ -67,21 +68,22 @@ export default function Component() {
 			<Navbar classNameProp={bg} />
 			<div className="min-h-[calc(100svh-65svh)] opacity-100 bg-gradient-to-r from-black from-30% to-blue-800 to-100%" >
 				{
-					!appDataFetched && (
-						<div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-1 lg:grid-cols-1 lg:gap-12 justify-center" >
-							<div className={classes.loading}>
-								<p className="justify-center align-middle flex">Loading...!</p>
-								<div className={classes.wrapper}>
-									<div className={classes.circle}></div>
-									<div className={classes.circle}></div>
-									<div className={classes.circle}></div>
-									<div className={classes.shadow}></div>
-									<div className={classes.shadow}></div>
-									<div className={classes.shadow}></div>
-								</div>
-							</div>
-						</div>
-					)
+					// !appDataFetched && (
+					// 	<div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-1 lg:grid-cols-1 lg:gap-12 justify-center" >
+					// 		<div className={classes.loading}>
+					// 			<p className="justify-center align-middle flex">Loading...!</p>
+					// 			<div className={classes.wrapper}>
+					// 				<div className={classes.circle}></div>
+					// 				<div className={classes.circle}></div>
+					// 				<div className={classes.circle}></div>
+					// 				<div className={classes.shadow}></div>
+					// 				<div className={classes.shadow}></div>
+					// 				<div className={classes.shadow}></div>
+					// 			</div>
+					// 		</div>
+					// 	</div>
+					// )
+					!appDataFetched && <LoadingSpinner className={bgMain}/>
 				}
 				{
 					appDataFetched && appData.length > 0 && (

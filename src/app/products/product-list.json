@@ -7,9 +7,15 @@
                 "id": "KS-44B46",
                 "name": "KS-44B46",
                 "crop": "Mustard/सरसों",
-                "crop-description": "Mustard Seeds/सरसों बीज",
+                "crop-description": "Hybrid Mustard Seeds/हाइब्रिड सरसों बीज",
                 "descriptionList": [
-                    "सामान्य और पिछेती दोनों बुवाईयों के लिए उपयुक्त", "40-42 प्रतिशत तेल की मात्रा", "सफेद रोली प्रति प्रतिरोधक किस्म", "120 से 125 दिन में पककर तैयार", "मोटा चमकदार दाना", "कम सिंचाई में पककर तैयार होने वाली"
+                    "सामान्य और पछेती दोनों बुवाईयों के लिए उपयुक्त",
+                    "40-42 प्रतिशत तेल की मात्रा",
+                    "सफेद रोली प्रतिरोधक किस्म",
+                    "120 से 125 दिन में पककर तैयार",
+                    "मोटा चमकदार दाना",
+                    "कम सिंचाई में पककर तैयार होने वाली",
+                    "10 से 12 क्विंटल प्रति एकड़ उपज"
                 ],
                 "images": [
                     {"image": "/products/KS-44B46.png"},
@@ -26,9 +32,12 @@
                 "id": "KS-87",
                 "name": "KS-87",
                 "crop": "Oat/जई",
-                "crop-description": "Oat Seeds/जई बीज",
+                "crop-description": "Research Oat Seeds/रिसर्च जई बीज",
                 "descriptionList": [
-                    "No details yet, Details has to be updated"
+                    "बार - बार कटाई अधिक चारा",
+                    "130 से 140 दिन में पककर तैयार",
+                    "3-4 कटाई के लिए उपयुक्त",
+                    "मुलायम तना व मीठा चारा"
                 ],
                 "images": [
                     {"image": "/products/KS-87.png"},
@@ -45,9 +54,14 @@
                 "id": "KP-(G-10)",
                 "name": "KP (G-10)",
                 "crop": "Pea/मटर",
-                "crop-description": "Pea Seeds/मटर बीज",
+                "crop-description": "Research Pea Seeds/रिसर्च मटर बीज",
                 "descriptionList": [
-                    "पाउडरी फफूंद के प्रति सहनशील", "अधिक बाजार मूल्य", "बुवाई के 75 से 80 दिन बाद पहली तुड़ाई", "प्रत्येक फली में 9 से 11 मटर के दाने", "गहरे हरे रंग की फली", "4 से 6 टन उपज प्रति एकड़"
+                    "पाउडरी फफूंद के प्रति सहनशील",
+                    "अधिक बाजार मूल्य",
+                    "बुवाई के 75 से 80 दिन बाद पहली तुड़ाई",
+                    "प्रत्येक फली में 9 से 11 मटर के दाने",
+                    " गहरे हरे रंग की फली",
+                    "4 से 6 टन हरी फलियों की उपज प्रति एकड़"
                 ],
                 "images": [
                     {"image": "/products/KP-(G-10).png"},
@@ -64,9 +78,14 @@
                 "id": "KESHAV-GOLD",
                 "name": "KESHAV GOLD",
                 "crop": "Wheat/गेहूँ",
-                "crop-description": "Wheat Seeds/गेहूँ बीज",
+                "crop-description": "Research Wheat Seeds/रिसर्च गेहूँ बीज",
                 "descriptionList": [
-                    "अधिक फुटान, भरपूर उत्पादन", "30 से 35 क्विंटल प्रति एकड़ उपज", "बालियां लम्बी, मोटी व भरी हुई", "वजनदार व आकर्षक दाने", "110-120 दिन में फसल तैयार"
+                    "अधिक फुटान, भरपूर उत्पादन",
+                    "30 से 35 क्विंटल प्रति एकड़ उपज",
+                    "6 से 8 इंच लम्बी बालियां",
+                    "वजनदार व आकर्षक दाने",
+                    "110 - 120 दिन में फसल तैयार",
+                    "एक बाली में दानों की संख्या 90 से 100"
                 ],
                 "images": [
                     {"image": "/products/KESHAV-GOLD.png"},
@@ -83,9 +102,14 @@
                 "id": "PARVTI-GOLD",
                 "name": "PARVTI GOLD",
                 "crop": "Musturd/सरसो",
-                "crop-description": "Musturd Seeds/सरसों बीज",
+                "crop-description": "Research Musturd Seeds/रिसर्च सरसों बीज",
                 "descriptionList": [
-                    "No details yet, Details has to be updated"
+                    "अगेती व मध्यम दोनो बुवाईयों के लिये उपयुक्त",
+                    "40-42 प्रतिशत तेल की मात्रा",
+                    "115-120 दिन में पककर तैयार",
+                    "मोटा चमकदार दाना",
+                    "कम सिंचाई में पककर तैयार होने वाली किस्म",
+                    "8 से 12 क्विंटल प्रति एकड़ उपज"
                 ],
                 "images": [
                     {"image": "/products/PARVTI-GOLD.png"},
@@ -102,9 +126,12 @@
                 "id": "KRIDHA",
                 "name": "KRIDHA",
                 "crop": "Chickpea/चने",
-                "crop-description": "Chickpea Seeds/चने बीज",
+                "crop-description": "Research Chickpea Seeds/रिसर्च चने बीज",
                 "descriptionList": [
-                    "No details yet, Details has to be updated"
+                    "सामान्य बुवाई वाले कम सिंचित क्षेत्रों के लिए उपयुक्त",
+                    "इसके पौधे खड़े, मध्यम ऊंचाई वाले व बहु शाखित फलियां अधिक",
+                    "पकने की अवधि 145 से 150 दिन",
+                    "10 से 12 क्विंटल प्रति एकड़ उपज"
                 ],
                 "images": [
                     {"image": "/products/KRIDHA.png"},
@@ -121,9 +148,15 @@
                 "id": "TRIJIT",
                 "name": "TRIJIT",
                 "crop": "Barley/जाँ",
-                "crop-description": "Barley Seeds/जाँ बीज",
+                "crop-description": "Research Barley Seeds/रिसर्च जाँ बीज",
                 "descriptionList": [
-                    "पौधे की ऊंचाई 3.6 से 4 फीट", "25 से 30 क्विंटल प्रति एकड़ उपज", "बीज की मात्रा 25 से 30 किलो / एकड़", "एक पौधे में फुटान 15 से 25", "एक बाली में दानों की संख्या 90 से 110", "पीला रतुआ रोग के प्रति सहनशील"
+                    "पौधे की ऊंचाई 3.6 से 4 फीट",
+                    "25 से 30 क्विंटल प्रति एकड़ उपज",
+                    "कम बीज दर",
+                    "एक पौधे में फुटान 15 से 20",
+                    "एक बाली में दानों की संख्या 90 से 110",
+                    "बाली की लम्बाई 7 से 8 इंच",
+                    "पीला रतुआ रोग के प्रति सहनशील"
                 ],
                 "images": [
                     {"image": "/products/TRIJIT.png"},
@@ -140,9 +173,15 @@
                 "id": "KHB-75",
                 "name": "KHB-75",
                 "crop": "Bajra/बाजरा",
-                "crop-description": "Bajra Seeds/बाजरा बीज",
+                "crop-description": "Hybrid Bajra Seeds/हाइब्रिड बाजरा बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "70 से 75 दिन में पककर तैयार",
+                    "पौधे की ऊंचाई 8 से 9 फीट",
+                    "10 से 12 इंच लम्बा, मोटा व ठोस सिट्टा",
+                    "अधिक उपज, भरपूर हरा चारा",
+                    "मजबूत तना जो फसल को गिरने नहीं देता",
+                    "अधिक फुटान व गहरी जड़े",
+                    "खाने में स्वादिष्ट अनाज"
                 ],
                 "images": [
                     {"image": "/products/KHB-75.png"}
@@ -157,12 +196,17 @@
                 "id": "KHB-80",
                 "name": "KHB-80",
                 "crop": "Bajra/बाजरा",
-                "crop-description": "Bajra Seeds/बाजरा बीज",
+                "crop-description": "Hybrid Bajra Seeds/हाइब्रिड बाजरा बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "80 से 85 दिन में पककर तैयार",
+                    "पौधे की ऊँचाई 9 से 10 फीट",
+                    "12 से 15 इंच लम्बा मोटा ठोस सिट्टा",
+                    "मोटा चमकीला दाना अधिक उपज",
+                    "अधिक पौटिक चारा जो पकने तक हरा रहता है",
+                    "अधिक चारा व अधिक अनाज"
                 ],
                 "images": [
-                    {"image": "/products/KHB-75.png"}
+                    {"image": "/products/KHB-80.png"}
                 ],
                 "price": null,
                 "quantity": null,
@@ -173,10 +217,13 @@
             {
                 "id": "KG-0441",
                 "name": "KG-0441",
-                "crop": "Groundnut",
-                "crop-description": "Groundnut seeds",
+                "crop": "Groundnut/मूँगफली",
+                "crop-description": "Hybrid Groundnut seeds/हाइब्रिड मूँगफली बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "85 से 90 दिन में पककर तैयार",
+                    "औसतन 50 प्रतिशत तेल की मात्रा",
+                    "सर्वाधिक उपज के लिए उपयुक्त",
+                    "टिक्का रोग के प्रतिरोधी"
                 ],
                 "images": [
                     {"image": "/products/KG-0441.png"}
@@ -190,10 +237,14 @@
             {
                 "id": "KRISHSONA",
                 "name": "KRISHSONA",
-                "crop": "Groundnut",
-                "crop-description": "Groundnut seeds",
+                "crop": "Groundnut/मूँगफली",
+                "crop-description": "Hybrid Groundnut seeds/हाइब्रिड मूँगफली बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "120 से 130 दिन में पककर तैयार",
+                    "औसतन 47 प्रतिशत तेल की मात्रा",
+                    "सर्वाधिक उपज के लिए उपयुक्त",
+                    "टिक्का रोग के प्रतिरोधी",
+                    "व्यापार की दृष्टि के लिए उपयुक्त"
                 ],
                 "images": [
                     {"image": "/products/KRISHSONA.png"}
@@ -207,10 +258,15 @@
             {
                 "id": "KRG-86",
                 "name": "KRG-86",
-                "crop": "Gun Guar",
-                "crop-description": "Gun Guar seeds",
+                "crop": "Gun Guar/ग्वार",
+                "crop-description": "Hybrid Gun Guar seeds/हाईब्रिड ग्वार बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "एक शाखित पौधा",
+                    "पौधे की उचाई 3.5 से 4 फीट",
+                    "अधिक फलियां, 10 से 12 क्विंटल प्रति एकड़ उपज",
+                    "ग्वार गम की अधिक मात्रा",
+                    "सिंचित व असिंचित दोनो के लिए उपयुक्त",
+                    "निर्यात के लिये उत्तम"
                 ],
                 "images": [
                     {"image": "/products/KRG-86.png"}
@@ -224,10 +280,14 @@
             {
                 "id": "GANGA-5",
                 "name": "GANGA-5",
-                "crop": "Maize",
-                "crop-description": "Maize seeds",
+                "crop": "Maize/मक्का",
+                "crop-description": "Hybrid Maize seeds/हाइब्रिड मक्का बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "100 से 110 दिन में पककर तैयार",
+                    "मध्यम ऊचाई मोटा लम्बा भुट्टा",
+                    "मध्यम ऊंचाई पर लंबा मोटा भुट्टा",
+                    "प्रति पौधा 2 से 3 भुट्टा और मोटा दाना",
+                    "जल्दी पकने वाली किस्म"
                 ],
                 "images": [
                     {"image": "/products/GANGA-5.png"}
@@ -241,10 +301,14 @@
             {
                 "id": "KRISHVI",
                 "name": "KRISHVI",
-                "crop": "SORGHUM SUDAN GRASS",
-                "crop-description": "SORGHUM SUDAN GRASS seeds",
+                "crop": "SORGHUM SUDAN GRASS/ज्वार",
+                "crop-description": "Research SORGHUM SUDAN GRASS seeds/रिसर्च ज्वार बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "15 से 17 फीट ऊंचाई वाली हरी पतियां",
+                    "3 से 4 बार कटाई वाली किस्म और अधिक बढ़वार",
+                    "तना और पतियों का 40-60 अनुपात",
+                    "रस भरा स्वादिष्ट और पौष्टिक तना",
+                    "मजबूत गहरी जड़े जो गिरने से रोके"
                 ],
                 "images": [
                     {"image": "/products/KRISHVI.png"}
@@ -258,10 +322,13 @@
             {
                 "id": "LALITA",
                 "name": "LALITA",
-                "crop": "SORGHUM SUDAN GRASS",
-                "crop-description": "SORGHUM SUDAN GRASS seeds",
+                "crop": "SORGHUM SUDAN GRASS/हरा चारा ज्वार",
+                "crop-description": "SORGHUM SUDAN GRASS seeds/हरा चारा ज्वार बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "12 से 14 फीट ऊंचाई वाली हरी पतियां",
+                    "3 से 4 बार कटाई वाली किस्म और अधिक बढ़वार",
+                    "तना और पतियों का 40-60 अनुपात",
+                    "रस भरा स्वादिष्ट और पौष्टिक तना"
                 ],
                 "images": [
                     {"image": "/products/LALITA.png"}
@@ -275,10 +342,14 @@
             {
                 "id": "PRITVI",
                 "name": "PRITVI",
-                "crop": "BAJRI",
-                "crop-description": "Hybrid BAJRI seeds",
+                "crop": "BAJRI/बाजरी",
+                "crop-description": "Hybrid BAJRI seeds/हाइब्रिड बाजरी बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "मध्यम ऊंचाई मध्यम चौड़ाई वाली हरी पतियां",
+                    "5 से 6 बार काटाई व जल्दी बढ़वार",
+                    "ज्यादा पतियों, तने व पतियों का 40-60 अनुपात",
+                    "रस भरा मुलायम तना स्वादिष्ट और पौष्टिक चारा",
+                    "अगेती बुवाई के लिये उपयुक्त"
                 ],
                 "images": [
                     {"image": "/products/PRITVI.png"}
@@ -292,10 +363,14 @@
             {
                 "id": "NUTRASTAR-SUPER",
                 "name": "NUTRASTAR SUPER",
-                "crop": "BAJRI",
-                "crop-description": "Hybrid BAJRI seeds",
+                "crop": "BAJRI/बाजरी",
+                "crop-description": "Hybrid BAJRI seeds/हाइब्रिड बाजरी बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "12 से 17 फीट बढ़वार वाली किस्म",
+                    "मध्यम चौड़ाई वाली हरी पतियां",
+                    "4 से 5 बार कटाई व जल्दी बढ़वार",
+                    "तना और पतियों का 40-60 अनुपात",
+                    "रस भरा मुलायम तना जो खाने में मीठा व पौष्टिक"
                 ],
                 "images": [
                     {"image": "/products/NUTRASTAR-SUPER.png"}
@@ -309,10 +384,15 @@
             {
                 "id": "KRISHNAM-60",
                 "name": "KRISHNAM-60",
-                "crop": "Moong",
-                "crop-description": "Research Moong seeds",
+                "crop": "Moong/मूँग",
+                "crop-description": "Research Moong seeds/रिसर्च मूँग बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "पकाव अवधि 55-60 दिन",
+                    "मध्यम ऊँचाई वाला पौधा, हल्की काले रंग की फलियां",
+                    "हरे आकर्षक मध्यम मोटे चमकीले दाने",
+                    "उच्च रोग प्रतिरोधक क्षमता",
+                    "व्यापक अनुकूलता",
+                    "6 से 7 फली प्रति शाखा"
                 ],
                 "images": [
                     {"image": "/products/KRISHNAM-60.png"}
@@ -326,10 +406,14 @@
             {
                 "id": "KRIJKA",
                 "name": "KRIJKA",
-                "crop": "Rijka",
-                "crop-description": "Rijka seeds",
+                "crop": "Rijka/रिजका",
+                "crop-description": "Rijka seeds/रिजका बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "ज्यादा उपज, बार- बार कटाई वाली किस्म",
+                    "नाइट्रोजन का अच्छा स्त्रोत",
+                    "रिजका के 16 से 25 प्रतिशत कच्चा प्रोटिन और",
+                    "20 से 30 प्रतिशत फाईबर पहली कटाई 40 से 45 दिन बाद",
+                    "दूसरी कटाई 25 से 30 दिन बाद व उसके बाद 18 से 22 दिन के बाद निरंतर कटाई"
                 ],
                 "images": [
                     {"image": "/products/KRIJKA.png"}
@@ -343,10 +427,13 @@
             {
                 "id": "IRESH",
                 "name": "IRESH",
-                "crop": "Kasni",
-                "crop-description": "Research Kasni seeds",
+                "crop": "Kasni/कासनी",
+                "crop-description": "Research Kasni seeds/रिसर्च कासनी बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "बारहमासी हरा चारा व बार - बार कटाई देने वाला चारा",
+                    "न्यूनतम 25 कटाई, अधिक उपज",
+                    "पशुओं की अच्छी प्रोटीन (25-35 प्रतिशत) युक्त चारा",
+                    "चौड़ी व मुलायम पतियाँ"
                 ],
                 "images": [
                     {"image": "/products/IRESH.png"}
@@ -360,10 +447,15 @@
             {
                 "id": "YUVAN",
                 "name": "YUVAN",
-                "crop": "Onion",
-                "crop-description": "Hybrid Onion seeds",
+                "crop": "Onion/प्याज",
+                "crop-description": "Hybrid Onion seeds/हाइब्रिड प्याज बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "गहरा लाल रंग व उच्च उपज",
+                    "गोल ग्लोब जैसा एक समान आकार व कम दिन में पकने वाली किस्म",
+                    "कोमल फफूंदी, गुलाबी जड़ और बैंगनी धब्बा के रोग के लिए प्रतिरोधी",
+                    "फल का वजन 150 से 200 ग्राम",
+                    "आकार 40 से 70 सेमी",
+                    "कटाई अवधि 160 से 190 दिन बाद"
                 ],
                 "images": [
                     {"image": "/products/YUVAN.png"}
@@ -377,10 +469,15 @@
             {
                 "id": "RUCHI-75",
                 "name": "RUCHI-75",
-                "crop": "Okra",
-                "crop-description": "Hybrid Okra seeds",
+                "crop": "Okra/भिण्डी",
+                "crop-description": "Hybrid Okra seeds/हाइब्रिड भिण्डी बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "मध्यम आकार का पौधा",
+                    "गहरे हरे रंग के फल",
+                    "प्रथम तुड़ाई 45 से 50 दिन",
+                    "पीला मोजेक के प्रति सहनशील",
+                    "अधिक उत्पादकता",
+                    "10 से 12 सेमी लम्बे फल"
                 ],
                 "images": [
                     {"image": "/products/RUCHI-75.png"}
@@ -394,10 +491,13 @@
             {
                 "id": "RISHI-44",
                 "name": "RISHI-44",
-                "crop": "Palak",
-                "crop-description": "Palak seeds",
+                "crop": "Palak/पालक",
+                "crop-description": "Palak seeds/पालक बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "पौधे सीधे तथा पतियों की संख्या अधिक",
+                    "पतियों का रंग आकर्षक हरा व चौड़ी पतियां",
+                    "बुवाई के 30 से 40 दिन बाद पहली कटाई",
+                    "अधिक उपज देने वाली किस्म"
                 ],
                 "images": [
                     {"image": "/products/RISHI-44.png"}
@@ -411,10 +511,14 @@
             {
                 "id": "ARYA",
                 "name": "ARYA",
-                "crop": "Carrot",
-                "crop-description": "Hybrid Carrot seeds",
+                "crop": "Carrot/गाजर",
+                "crop-description": "Hybrid Carrot seeds/हाइब्रिड गाजर बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "जड़ का आकार पतला लम्बा",
+                    "जड़ की लम्बाई 30 से 35 सेमी",
+                    "जड़ का रंग गहरा लाल",
+                    "परिपक्वता 80 से 90 दिन व एक समान परिपक्वता",
+                    "स्वाद मीठा"
                 ],
                 "images": [
                     {"image": "/products/ARYA.png"}
@@ -428,10 +532,13 @@
             {
                 "id": "LUCKY-WHITE",
                 "name": "LUCKY WHITE",
-                "crop": "Radish",
-                "crop-description": "Hybrid Radish seeds",
+                "crop": "Radish/मूली",
+                "crop-description": "Hybrid Radish seeds/हाइब्रिड मूली बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "बुवाई के 55 से 60 दिन बाद परिपक्वता",
+                    "फल का आकार सीधा बेलनाकार व ऊपर से थोड़ा पतला",
+                    "जड़े शुद्ध सफेद रंग की जड़ो की लम्बाई 40 सेमी",
+                    "जड़ की सतह चिकनी सफेद"
                 ],
                 "images": [
                     {"image": "/products/LUCKY-WHITE.png"}
@@ -445,10 +552,13 @@
             {
                 "id": "KRISHAV",
                 "name": "KRISHAV",
-                "crop": "Coriander",
-                "crop-description": "Coriander seeds",
+                "crop": "Coriander/धनिया",
+                "crop-description": "Coriander seeds/धनिया बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "बार - बार कटाई के उपयुक्त",
+                    "पहली कटाई 30 से 35 दिन बाद",
+                    "हरी आकर्षक व सुगन्धित पतियां",
+                    "लम्बे परिवहन के लिए उपयुक्त"
                 ],
                 "images": [
                     {"image": "/products/KRISHAV.png"}
@@ -462,10 +572,14 @@
             {
                 "id": "MADHAV",
                 "name": "MADHAV",
-                "crop": "TINDA",
-                "crop-description": "Reserach TINDA seeds",
+                "crop": "TINDA/टिण्डा",
+                "crop-description": "Reserach TINDA seeds/रिसर्च टिण्डा बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "अधिक उपज देने वाली किस्म",
+                    "हल्के हरे रंग के गोल आकार के फल",
+                    "निरन्तर और केन्द्रित फल प्रकार",
+                    "परिवहन के लिए उपयुक्त",
+                    "जल्दी तुड़ाई (35-40 दिन)"
                 ],
                 "images": [
                     {"image": "/products/MADHAV.png"}
@@ -479,10 +593,15 @@
             {
                 "id": "AVYAN",
                 "name": "AVYAN",
-                "crop": "Tinda",
-                "crop-description": "Hybrid Tinda seeds",
+                "crop": "Tinda/टिण्डा",
+                "crop-description": "Hybrid Tinda seeds/हाइब्रिड टिण्डा बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "अधिक उपज देने वाली किस्म",
+                    "हल्के हरे रंग के गोल आकार के फल",
+                    "निरन्तर और केन्द्रित फल प्रकार",
+                    "परिवहन के लिए उपयुक्त",
+                    "हरा व रवादार फल",
+                    "पहली तुड़ाई 35 दिन बाद"
                 ],
                 "images": [
                     {"image": "/products/AVYAN.png"}
@@ -496,10 +615,15 @@
             {
                 "id": "KRISHNAM-61",
                 "name": "KRISHNAM-61",
-                "crop": "Guwar",
-                "crop-description": "Research Guwar seeds",
+                "crop": "Guwar/ग्वार",
+                "crop-description": "Research Guwar seeds/रिसर्च ग्वार बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "पहली तुड़ाई 35 से 40 दिन",
+                    "नीचे से गुच्छों में लगातार फल",
+                    "सीधा और एकल तना वाला पौधा",
+                    "आकर्षक चमकदार हरे रंग की मुलायम फलियां",
+                    "10 से 12 सेमी लम्बी वजनदार फलियां",
+                    "रोगों के प्रति प्रतिरोधक किस्म"
                 ],
                 "images": [
                     {"image": "/products/KRISHNAM-61.png"}
@@ -513,10 +637,15 @@
             {
                 "id": "SWEET-TRIPTI",
                 "name": "SWEET TRIPTI",
-                "crop": "Watermelon",
-                "crop-description": "Hybrid Watermelon seeds",
+                "crop": "Watermelon/तरबूज",
+                "crop-description": "Hybrid Watermelon seeds/हाइब्रिड तरबूज बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "फल का आकार 3 से 5 किलो",
+                    "फल की तुड़ाई 60 से 65 दिन के अन्दर",
+                    "फल लम्बाकार होता है",
+                    "फल का रंग अन्दर से गहरा लाल है",
+                    "खाने में मीठा व स्वादिष्ट (TSS-12-14) होता है",
+                    "अधिक पैदावार वाली किस्म"
                 ],
                 "images": [
                     {"image": "/products/SWEET-TRIPTI.png"}
@@ -530,10 +659,14 @@
             {
                 "id": "RISHI-45",
                 "name": "RISHI-45",
-                "crop": "Cucumber",
-                "crop-description": "Hybrid Cucumber seeds",
+                "crop": "Cucumber/खीरा",
+                "crop-description": "Hybrid Cucumber seeds/हाईब्रिड खीरा बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "फल आकर्षक हल्का हरा",
+                    "फल की औसत लम्बाई 18 से 20 सेमी",
+                    "फल का वजन 150 से 180 ग्राम",
+                    "पहली तुड़ाई 40 से 45 दिन बाद",
+                    "वायरस के प्रति सहनशील"
                 ],
                 "images": [
                     {"image": "/products/RISHI-45.png"}
@@ -547,10 +680,13 @@
             {
                 "id": "URVI",
                 "name": "URVI",
-                "crop": "Chilli",
-                "crop-description": "Hybrid Chilli seeds",
+                "crop": "Chilli/मिर्च",
+                "crop-description": "Hybrid Chilli seeds/हाईब्रिड मिर्च बीज",
                 "descriptionList": [
-                  "No details yet, Details has to be updated"
+                    "55 से 60 दिन में पहली तुड़ाई",
+                    "गहरे हरे रंग के आकर्षक फल, मध्यम तीखापन",
+                    "फल की लम्बाई 20 से 22 सेमी",
+                    "वायरस के प्रति सहनशील"
                 ],
                 "images": [
                     {"image": "/products/URVI.png"}
